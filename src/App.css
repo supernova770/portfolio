@@ -95,8 +95,12 @@ img {
   font-weight: 500;
 }
 
-.chip--green-medium{
-  background-color: #2a90bc;
+.chip__a {
+  color: #86f3df;
+}
+
+.chip--green {
+  background-color: #032b3a;
 }
 
 @media only screen and (max-width: 600px) {
@@ -111,79 +115,76 @@ img {
     color: white;
     font-family: 'Poppins', sans-serif;
   }
-  
+
   .body-container {
     max-width: 800px;
   }
-  
+
   a {
     color: white;
     text-decoration: none;
     font-size: 16px;
   }
-  
+
   img {
     border-radius: 50%;
     margin-left: 35px;
     width: 170;
     height: 70;
-    /* -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    /* filter: grayscale(100%);  */
   }
-  
+
   .profile-container {
     display: flex;
     margin-bottom: 20px;
   }
-  
+
   #portfolio-text-title {
     font-weight: 500;
     font-size: 2em;
     margin: 0px 0px 0px 20px;
   }
-  
+
   #portfolio-text-body {
     font-weight: 200;
     font-size: 1.5em;
     margin: 0px 0px 5px 35px;
   }
-  
+
   #portfolio-text-footer {
     font-weight: 400;
     font-size: 1.5em;
     margin: 20px 0px 5px 35px;
   }
-  
+
   #portfolio-text-projects {
     font-weight: 500;
     margin: 0px 0px 5px 35px;
   }
-  
+
   #portfolio-hr-projects {
     border: 0.5px solid rgb(18, 18, 18);
     width: 95%;
     margin: 0 auto;
   }
-  
+
   .hr-project-item {
     border: 0.5px solid rgb(18, 18, 18);
     width: 80%;
     margin: 0 auto;
   }
-  
+
   .portfolio-project-li {
     font-weight: 200;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
   }
-  
+
   .list-item {
     font-weight: 200;
     margin-left: 35px;
   }
-  
+
   .chip-container {
     margin: 10px 0px 20px 35px;
   }
@@ -199,8 +200,12 @@ img {
     font-weight: 500;
   }
 
-  .chip--green-medium{
-    background-color: #2a90bc;
+  .chip__a {
+    color: #86f3df;
   }
-  
+
+  .chip--green {
+    background-color: #032b3a;
+  }
+ 
 }
