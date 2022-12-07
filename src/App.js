@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div className="body-container">
         <div className="profile-container">
-          <img clasName="circle" src="svds.jfif" width="100" height="100" alt="profile" />
+          <img clasName="circle-img" src="svds.jfif" width="100" height="100" alt="profile" />
           <h2 id="portfolio-text-title">Sietze v.d. Star</h2>
         </div>
         <p id="portfolio-text-body">Hi 👋 I am a front-end engineer working on accessible digital experiences.</p>

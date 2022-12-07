@@ -16,18 +16,9 @@
   max-width: 800px;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-}
-
 img {
   border-radius: 50%;
   margin-left: 35px;
-  /* -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  /* filter: grayscale(100%);  */
 }
 
 .profile-container {
@@ -94,11 +85,11 @@ img {
 
   font-weight: 500;
 }
-
 .chip__a {
   color: #86f3df;
+  text-decoration: none;
+  font-size: 16px;
 }
-
 .chip--green {
   background-color: #032b3a;
 }
@@ -199,11 +190,11 @@ img {
     border-radius: 25px;
     font-weight: 500;
   }
-
   .chip__a {
     color: #86f3df;
+    text-decoration: none;
+    font-size: 16px;
   }
-
   .chip--green {
     background-color: #032b3a;
   }
