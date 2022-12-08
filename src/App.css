@@ -34,6 +34,7 @@ img {
 
 #portfolio-text-body {
   font-weight: 200;
+  max-width: 600px;
   margin: 0px 0px 5px 35px;
 }
 
@@ -138,7 +139,8 @@ img {
 
   #portfolio-text-body {
     font-weight: 200;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    max-width: 375px;
     margin: 0px 0px 5px 35px;
   }
 
