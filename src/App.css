@@ -34,7 +34,7 @@ img {
 
 #portfolio-text-body {
   font-weight: 200;
-  max-width: 600px;
+  max-width: 80vw;
   margin: 0px 0px 5px 35px;
 }
 
@@ -140,7 +140,7 @@ img {
   #portfolio-text-body {
     font-weight: 200;
     font-size: 1.2em;
-    max-width: 375px;
+    max-width: 87vw;
     margin: 0px 0px 5px 35px;
   }
 
@@ -249,7 +249,7 @@ img {
   #portfolio-text-body {
     font-weight: 200;
     font-size: 1.5em;
-    max-width: 320px;
+    max-width: 80vw;
     margin: 0px 0px 5px 35px;
   }
 
