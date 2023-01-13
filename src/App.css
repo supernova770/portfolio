@@ -23,12 +23,13 @@ img {
 
 .profile-container {
   display: flex;
-  margin-bottom: 20px;
+  vertical-align: middle;
+  align-items: center;
+  margin: 0px 0px 20px 0px;
 }
 
 #portfolio-text-title {
   font-weight: 500;
-  font-size:150%;
   margin: 0px 0px 0px 20px;
 }
 
@@ -81,10 +82,8 @@ img {
   padding: 0 20px;
   margin-right: 10px;
   height: 50px;
-  font-size: 18px;
-  line-height: 50px;
+  line-height: 35px;
   border-radius: 25px;
-
   font-weight: 500;
 }
 .chip__a {
@@ -97,21 +96,6 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
-  .App {
-    background-color: #080808;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .body-container {
-    max-width: 800px;
-  }
 
   a {
     color: white;
@@ -206,22 +190,6 @@ img {
 
 
 @media only screen and (max-width: 400px) {
-  .App {
-    background-color: #080808;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .body-container {
-    max-width: 800px;
-  }
-
   a {
     color: white;
     text-decoration: none;
