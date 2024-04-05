@@ -7,7 +7,7 @@ export const Card = ({href, name}) => {
         <div className="card">
             <div className='innerCard'>
             <h2 id="portfolio-text-title">Sietze v.d. Star</h2>
-            <p id="portfolio-text-body">Hi 👋 I am a digital designer working on user-centered experiences with my UX design and frontend development skills.</p>
+            <p id="portfolio-text-body">Hi there!👋 I am working on user-centered experiences with my UX design and frontend development skills.</p>
             <div className="chip-container">
                 <Chip name={"LinkedIn"} href={'https://www.linkedin.com/in/sietze-van-de-star/'}/>
                 <Chip name={"Behance"} href={'https://www.behance.net/sietzevanda20e'}/>
