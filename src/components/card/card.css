@@ -2,8 +2,8 @@
     background-color: white;
     border-radius: 20px;
     max-width: 550px;
-    filter: drop-shadow(5px 5px 10px #dedede);
-    margin:20px;
+    filter: drop-shadow(5px 5px 10px #edecec);
+    margin:15px;
 }
 
 .innerCard {
@@ -11,7 +11,7 @@
 }
 
 #portfolio-text-title {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 36px;
     color: black;
 }
@@ -19,10 +19,11 @@
 #portfolio-text-body {
     font-weight: 300;
     font-size: 28px;
-    margin-top: 20px;
+    line-height: normal;
+    margin-top: 15px;
     color: black;
 }
 
 .chip-container {
-    margin-top: 20px;
+    margin-top: 15px;
 }
