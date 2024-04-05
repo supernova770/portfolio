@@ -1,7 +1,56 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 
 .App {
-  background-color: #080808;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,272 +59,4 @@
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: 'Poppins', sans-serif;
-}
-
-.body-container {
-  max-width: 800px;
-}
-
-img {
-  border-radius: 50%;
-  margin-left: 35px;
-}
-
-.profile-container {
-  display: flex;
-  vertical-align: middle;
-  align-items: center;
-  margin: 0px 0px 20px 0px;
-}
-
-#portfolio-text-title {
-  font-weight: 500;
-  margin: 0px 0px 0px 20px;
-}
-
-#portfolio-text-body {
-  font-weight: 200;
-  max-width: 80vw;
-  margin: 0px 0px 5px 35px;
-}
-
-#portfolio-text-footer {
-  font-weight: 400;
-  margin: 20px 0px 5px 35px;
-}
-
-#portfolio-text-projects {
-  font-weight: 500;
-  margin: 0px 0px 5px 35px;
-}
-
-#portfolio-hr-projects {
-  border: 0.5px solid rgb(18, 18, 18);
-  width: 95%;
-  margin: 0 auto;
-}
-
-.hr-project-item {
-  border: 0.5px solid rgb(18, 18, 18);
-  width: 80%;
-  margin: 0 auto;
-}
-
-.portfolio-project-li {
-  font-weight: 200;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-.list-item {
-  font-weight: 200;
-  margin-left: 35px;
-}
-
-.chip-container {
-  margin: 10px 0px 20px 35px;
-}
-
-.chip {
-  display: inline-block;
-  padding: 2px 20px 10px;
-  margin-right: 10px;
-  line-height: 25px;
-  border-radius: 25px;
-  font-weight: 500;
-}
-.chip__a {
-  color: #86f3df;
-  text-decoration: none;
-  font-size: 16px;
-}
-.chip--green {
-  background-color: #032b3a;
-}
-
-@media only screen and (max-width: 1200px) {
-
-  a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-  }
-
-  img {
-    border-radius: 50%;
-    margin-left: 35px;
-    width: 170;
-    height: 70;
-  }
-
-  .profile-container {
-    display: flex;
-    margin-bottom: 20px;
-  }
-
-  #portfolio-text-title {
-    font-weight: 500;
-    font-size: 2em;
-    margin: 0px 0px 0px 20px;
-  }
-
-  #portfolio-text-body {
-    font-weight: 200;
-    font-size: 1.2em;
-    max-width: 87vw;
-    margin: 0px 0px 5px 35px;
-  }
-
-  #portfolio-text-footer {
-    font-weight: 400;
-    font-size: 1.5em;
-    margin: 20px 0px 5px 35px;
-  }
-
-  #portfolio-text-projects {
-    font-weight: 500;
-    margin: 0px 0px 5px 35px;
-  }
-
-  #portfolio-hr-projects {
-    border: 0.5px solid rgb(18, 18, 18);
-    width: 95%;
-    margin: 0 auto;
-  }
-
-  .hr-project-item {
-    border: 0.5px solid rgb(18, 18, 18);
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .portfolio-project-li {
-    font-weight: 200;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .list-item {
-    font-weight: 200;
-    margin-left: 35px;
-  }
-
-  .chip-container {
-    margin: 10px 0px 20px 35px;
-  }
-
-  .chip {
-    display: inline-block;
-    padding: 0 10px;
-    margin-right: 10px;
-    height: 30px;
-    font-size: 18px;
-    line-height: 30px;
-    border-radius: 25px;
-    font-weight: 500;
-  }
-  .chip__a {
-    color: #86f3df;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  .chip--green {
-    background-color: #032b3a;
-  }
- 
-}
-
-
-@media only screen and (max-width: 400px) {
-  a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-  }
-
-  img {
-    border-radius: 50%;
-    margin-left: 35px;
-    width: 170;
-    height: 70;
-  }
-
-  .profile-container {
-    display: flex;
-    margin-bottom: 20px;
-  }
-
-  #portfolio-text-title {
-    font-weight: 500;
-    font-size: 2em;
-    margin: 0px 0px 0px 20px;
-  }
-
-  #portfolio-text-body {
-    font-weight: 200;
-    font-size: 1.5em;
-    max-width: 80vw;
-    margin: 0px 0px 5px 35px;
-  }
-
-  #portfolio-text-footer {
-    font-weight: 400;
-    font-size: 1.5em;
-    margin: 20px 0px 5px 35px;
-  }
-
-  #portfolio-text-projects {
-    font-weight: 500;
-    margin: 0px 0px 5px 35px;
-  }
-
-  #portfolio-hr-projects {
-    border: 0.5px solid rgb(18, 18, 18);
-    width: 95%;
-    margin: 0 auto;
-  }
-
-  .hr-project-item {
-    border: 0.5px solid rgb(18, 18, 18);
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .portfolio-project-li {
-    font-weight: 200;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .list-item {
-    font-weight: 200;
-    margin-left: 35px;
-  }
-
-  .chip-container {
-    margin: 10px 0px 20px 35px;
-  }
-
-  .chip {
-    display: inline-block;
-    padding: 0 10px;
-    margin-right: 10px;
-    height: 40px;
-    font-size: 18px;
-    line-height: 40px;
-    border-radius: 25px;
-    font-weight: 500;
-  }
-  .chip__a {
-    color: #86f3df;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  .chip--green {
-    background-color: #032b3a;
-  }
- 
 }
