@@ -9,6 +9,7 @@
   background-color: #ffffff;
   outline: solid 2px black;
   margin:10px 20px 5px 0px;
+  cursor: pointer;
 }
 
 .chip__a {
@@ -17,6 +18,11 @@
 }
 
 .chip:hover {
-  background-color: #B8C0FF;
+  background-color: #034ff4;
+  color: white;
 }
-  
+
+.chip:hover > a{
+  background-color: #034ff4;
+  color: white;
+}
