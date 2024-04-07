@@ -11,19 +11,63 @@
 }
 
 #portfolio-text-title {
-    font-weight: 500;
-    font-size: 36px;
+    font-weight: bold;
+    font-size: 26px;
     color: black;
 }
 
 #portfolio-text-body {
     font-weight: 300;
-    font-size: 28px;
-    line-height: 1.25;
-    margin-top: 15px;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-top: 10px;
     color: black;
 }
 
-.chip-container {
+#portfolio-text-extended-inactive {
+    font-weight: 300;
+    font-size: 22px;
+    color: black;
+    line-height: 1.5;
+    height:0px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#portfolio-text-extended-active {
+    font-weight: 300;
+    font-size: 22px;
+    color: black;
+    line-height: 1.5;
     margin-top: 15px;
+    height:auto;
+    visibility:visible;
+    opacity: 1;
+
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    transition: all .8s ease;
+}
+
+#text-hr {
+    border-top: 0.5px solid rgb(243, 243, 243);
+}
+
+#button-extend {
+    color: black;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#button-extend:hover {
+    color: #034ff4;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
 }
