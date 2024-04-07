@@ -6,7 +6,7 @@ export const Card = ({href, name}) => {
     return (
         <div className="card">
             <div className='innerCard'>
-            <h2 id="portfolio-text-title">Hi there!👋</h2>
+            <h2 id="portfolio-text-title">Hi there!</h2>
             <p id="portfolio-text-body">My name is Sietze. I am working on user-centered experiences with my UX design and frontend development skills.</p>
             <div className="chip-container">
                 <Chip name={"LinkedIn"} href={'https://www.linkedin.com/in/sietze-van-de-star/'}/>
