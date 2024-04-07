@@ -13,6 +13,7 @@ export const Card = ({href, name}) => {
                 <Chip name={"Behance"} href={'https://www.behance.net/sietzevanda20e'}/>
                 <Chip name={"Codepen"} href={'https://codepen.io/svandes'}/>
                 <Chip name={"GitHub"} href={'https://github.com/supernova770'}/>
+                <Chip name={"React DDL Showcase"} href={'https://supernova770.github.io/dropdown-showcase/'}/>
             </div>
             </div>
         </div>

@@ -12,17 +12,17 @@
   cursor: pointer;
 }
 
-.chip__a {
-  color: #000000;
-  text-decoration: none;
-}
-
 .chip:hover {
   background-color: #034ff4;
   color: white;
 }
 
-.chip:hover > a{
+.chip__a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.chip:hover > a {
   background-color: #034ff4;
   color: white;
 }
