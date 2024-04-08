@@ -3,7 +3,21 @@
     border-radius: 20px;
     max-width: 460px;
     filter: drop-shadow(5px 5px 10px #edecec);
-    margin:15px;
+    position: absolute;
+    top:35%;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        background-color: white;
+        border-radius: 20px;
+        max-width: 460px;
+        filter: drop-shadow(5px 5px 10px #edecec);
+        position: absolute;
+        top:5%;
+        margin: 15px;
+    }
 }
 
 .innerCard {
@@ -24,6 +38,13 @@
     color: black;
 }
 
+#portfolio-text-p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+
 #portfolio-text-extended-inactive {
     font-weight: 300;
     font-size: 18px;
@@ -39,7 +60,7 @@
     font-size: 18px;
     color: black;
     line-height: 1.5;
-    margin-top: 15px;
+    margin-top: 20px;
     height:auto;
     visibility:visible;
     opacity: 1;

@@ -17,7 +17,7 @@ export const Card = ({ href, name }) => {
             diverse UX design and frontend development skills.
           </p>
           <div id={textShouldExtend ? "portfolio-text-extended-active" : "portfolio-text-extended-inactive"}>
-            <p id="portfolio-text-body">
+            <p id="portfolio-text-p">
             I believe that design can solve problems in a way that is both
             pleasing and impactful adressing both human needs and business constraints. 
             I achieve this through an iterative meticulous process consisting out of problem analysis, innovative solution 
@@ -25,13 +25,13 @@ export const Card = ({ href, name }) => {
             design choices rooted in sound logical reasoning.
             </p>
             <br />
-            <p id="portfolio-text-body">
+            <p id="portfolio-text-p">
             Further, radical simplicity, and the tension between 
             precision and subtle playfulness are key variables that I work with in order to design pleasant experiences 
             that fulfill user needs.
             </p>
             <br />
-            <p id="portfolio-text-body">
+            <p id="portfolio-text-p">
             Below are a few links if you would like to see more of my work. 
             </p>
           </div>
