@@ -22,8 +22,13 @@ export const Card = ({ href, name }) => {
             pleasing and impactful adressing both human needs and business constraints. 
             I achieve this through an iterative meticulous process consisting out of problem analysis, innovative solution 
             exploration, prototyping, incorporation of user feedback, and the deliberate implementation of
-            design choices rooted in sound logical reasoning. I foster joy through radical simplicty and playfulness and strive 
-            to design experiences as such.
+            design choices rooted in sound logical reasoning.
+            </p>
+            <br />
+            <p>
+            Further, radical simplicity, and the tension between 
+            precision and subtle playfulness are key variables that I work with in order to design pleasant experiences 
+            that fulfill user needs.
             </p>
             <br />
             <p>

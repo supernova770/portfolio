@@ -68,10 +68,10 @@ export const ParticleAnimation = () => {
 
     // create particles
     let particles = [];
-    let maxParts = 30;
+    let maxParts = 24;
 
     if (width < 350) {
-      maxParts = 20;
+      maxParts = 14;
     }
 
     function createParticles() {
