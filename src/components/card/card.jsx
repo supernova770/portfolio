@@ -27,8 +27,9 @@ export const Card = ({ href, name }) => {
         <p onClick={handleTextExtend} id="button-extend">
           {textShouldExtend ? "read less" : "read more..."}
         </p>
-        <hr id="text-hr" />
+        <div id="text-hr" />
         <div className="chip-list">
+          <Chip name={"LinkedIn"} href={"https://www.linkedin.com/in/sietze-van-de-star/"} />
           <Chip
             name={"Behance"}
             href={"https://www.behance.net/sietzevanda20e"}
