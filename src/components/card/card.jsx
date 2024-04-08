@@ -24,13 +24,13 @@ export const Card = ({ href, name }) => {
             exploration, prototyping, incorporation of user feedback, and the deliberate implementation of
             design choices rooted in sound logical reasoning.
             </p>
-            <br />
+            <div style={{height:10}}/>
             <p id="portfolio-text-p">
             Further, radical simplicity, and the tension between 
             precision and subtle playfulness are key variables that I work with in order to design pleasant experiences 
             that fulfill user needs.
             </p>
-            <br />
+            <div style={{height:10}}/>
             <p id="portfolio-text-p">
             Below are a few links if you would like to see more of my work. 
             </p>
