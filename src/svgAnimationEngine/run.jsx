@@ -27,18 +27,20 @@ export const ParticleAnimation = () => {
 
     class Circle {
       constructor() {
-        this.r = _.random(1, 5);
+        this.r = _.random(1, 7);
         this.d = this.r * 2;
         this.x = _.random(this.r, width - this.d);
         this.y = _.random(this.r, height - this.d);
         this.col = colors[_.random(0, 3)];
         this.vX = _.random(-10, 10) / 15;
         this.vY = _.random(-10, 10) / 15;
+        this.op = Math.random();
         this.el = createSvgNode("circle", {
           cx: this.x,
           cy: this.y,
           r: this.r,
           fill: this.col,
+          opacity: this.op
         });
       }
 
@@ -66,10 +68,10 @@ export const ParticleAnimation = () => {
 
     // create particles
     let particles = [];
-    let maxParts = 24;
+    let maxParts = 30;
 
     if (width < 350) {
-      maxParts = 10;
+      maxParts = 20;
     }
 
     function createParticles() {

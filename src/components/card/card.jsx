@@ -17,11 +17,18 @@ export const Card = ({ href, name }) => {
             diverse UX design and frontend development skills.
           </p>
           <div id={textShouldExtend ? "portfolio-text-extended-active" : "portfolio-text-extended-inactive"}>
+            <p>
             I believe that design can solve problems in a way that is both
             pleasing and impactful adressing both human needs and business constraints. 
-            This is achieved through a swift meticulous process of problem analysis, innovative solution 
-            exploration and prototyping, incorporation of user feedback, and the deliberate implementation of
-            design choices rooted in sound logical reasoning. 
+            I achieve this through an iterative meticulous process consisting out of problem analysis, innovative solution 
+            exploration, prototyping, incorporation of user feedback, and the deliberate implementation of
+            design choices rooted in sound logical reasoning. I foster joy through radical simplicty and playfulness and strive 
+            to design experiences as such.
+            </p>
+            <br />
+            <p>
+            Below are a few links if you would like to see more of my work. 
+            </p>
           </div>
         </div>
         <p onClick={handleTextExtend} id="button-extend">
@@ -29,7 +36,6 @@ export const Card = ({ href, name }) => {
         </p>
         <div id="text-hr" />
         <div className="chip-list">
-          <Chip name={"LinkedIn"} href={"https://www.linkedin.com/in/sietze-van-de-star/"} />
           <Chip
             name={"Behance"}
             href={"https://www.behance.net/sietzevanda20e"}
