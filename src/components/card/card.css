@@ -3,21 +3,7 @@
     border-radius: 20px;
     max-width: 460px;
     filter: drop-shadow(5px 5px 10px #edecec);
-    position: absolute;
-    top:35%;
     margin: 15px;
-}
-
-@media only screen and (max-width: 600px) {
-    .card {
-        background-color: white;
-        border-radius: 20px;
-        max-width: 460px;
-        filter: drop-shadow(5px 5px 10px #edecec);
-        position: absolute;
-        top:5%;
-        margin: 15px;
-    }
 }
 
 .innerCard {
