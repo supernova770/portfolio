@@ -12,13 +12,13 @@
 
 #portfolio-text-title {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 24px;
     color: black;
 }
 
 #portfolio-text-body {
     font-weight: 300;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5;
     margin-top: 10px;
     color: black;
@@ -26,7 +26,7 @@
 
 #portfolio-text-extended-inactive {
     font-weight: 300;
-    font-size: 22px;
+    font-size: 18px;
     color: black;
     line-height: 1.5;
     height:0px;
@@ -36,7 +36,7 @@
 
 #portfolio-text-extended-active {
     font-weight: 300;
-    font-size: 22px;
+    font-size: 18px;
     color: black;
     line-height: 1.5;
     margin-top: 15px;
@@ -57,7 +57,7 @@
 
 #button-extend {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 10px;
     margin-bottom: 15px;
     cursor: pointer;
@@ -66,7 +66,7 @@
 
 #button-extend:hover {
     color: #034ff4;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 10px;
     margin-bottom: 15px;
     cursor: pointer;
